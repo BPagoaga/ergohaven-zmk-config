@@ -37,6 +37,20 @@
             hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 30 31 32>;
             hold-trigger-on-release;
         };
+
+        TD_A: TD_A {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_A";
+            #binding-cells = <0>;
+            bindings = <&kp Q>, <&kp N0>;
+        };
+
+        TD_U: TD_U {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_U";
+            #binding-cells = <0>;
+            bindings = <&kp U>, <&kp SINGLE_QUOTE>;
+        };
     };
 
     combos {
@@ -58,7 +72,7 @@
 
         base {
             bindings = <
-  &kp Q        &kp W        &kp E         &kp R          &kp T                                           &kp Y        &kp U         &kp I         &kp O        &kp P
+  &TD_A        &kp W        &kp E         &kp R          &kp T                                           &kp Y        &TD_U         &kp I         &kp O        &kp P
   &hml LGUI A  &hml LALT S  &hml LCTRL D  &hml LSHFT F   &kp G                                           &kp H        &hmr RSHFT J  &hmr RCTRL K  &hmr LALT L  &hmr RGUI SEMICOLON
   &kp Z        &kp X        &kp C         &kp V          &kp B                                           &kp N        &kp M         &kp COMMA     &kp DOT      &kp SQT
                                           &kp PAGE_DOWN  &hml LSHFT BACKSPACE  &lt 3 TAB    &lt 2 ENTER  &lt 1 SPACE  &kp PG_UP
@@ -69,10 +83,10 @@
 
         nav {
             bindings = <
-  &kp N1         &kp N2    &kp N3     &kp N4     &kp N5                        &kp N6           &kp N7           &kp N8           &kp N9        &kp N0
-  &hml LGUI ESC  &kp LALT  &kp LSHFT  &kp LCTRL  &kp ENTER                     &kp PRINTSCREEN  &hmr RCTRL LEFT  &hmr RSHFT DOWN  &hmr LALT UP  &hmr RGUI RIGHT
-  &none          &kp HOME  &kp INS    &kp END    &kp DELETE                    &kp CAPS         &none            &kp PG_DN        &kp PG_UP     &none
-                                      &trans     &trans      &trans    &trans  &mo 3            &trans
+  &kp N1            &kp LBRC              &kp RA(NUMBER_4)  &kp RA(EQUAL)  &kp RA(N6)                              &kp GRAVE                 &kp RA(N7)    &kp N8        &kp RA(N0)  &kp ASTRK
+  &kp EQUAL         &kp RBRC              &kp NUMBER_5      &kp MINUS      &kp NON_US_BACKSLASH                    &kp LS(NON_US_BACKSLASH)  &kp NUMBER_3  &kp NUMBER_4  &none       &kp KP_PLUS
+  &kp RA(NUMBER_3)  &kp LS(SINGLE_QUOTE)  &kp RA(NUMBER_5)  &kp RA(MINUS)  &kp RA(NUMBER_2)                        &none                     &none         &none         &kp RA(N8)  &kp KP_MINUS
+                                                            &trans         &trans                &trans    &trans  &trans                    &trans
             >;
 
             display-name = "Navigation";
