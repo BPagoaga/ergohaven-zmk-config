@@ -81,7 +81,7 @@
             display-name = "Base";
         };
 
-        nav {
+        sym {
             bindings = <
   &kp N1            &kp LBRC              &kp RA(NUMBER_4)  &kp RA(EQUAL)  &kp RA(N6)                              &kp GRAVE                 &kp RA(N7)    &kp N8        &kp RA(N0)  &kp ASTRK
   &kp EQUAL         &kp RBRC              &kp NUMBER_5      &kp MINUS      &kp NON_US_BACKSLASH                    &kp LS(NON_US_BACKSLASH)  &kp NUMBER_3  &kp NUMBER_4  &none       &kp KP_PLUS
@@ -92,18 +92,18 @@
             display-name = "Navigation";
         };
 
-        sym {
+        num {
             bindings = <
-  &none           &kp LT          &kp EQUAL         &kp GT           &kp GRAVE                    &kp CARET  &kp LBKT         &kp UNDER        &kp RBKT        &none
-  &hml LGUI BSLH  &hml LALT LPAR  &hml LSHFT MINUS  &hml LCTRL RPAR  &kp PLUS                     &kp PRCNT  &hmr RCTRL LBRC  &hmr RSHFT SEMI  &hmr LALT RBRC  &hmr RGUI EXCL
-  &kp HASH        &kp STAR        &kp COLON         &kp FSLH         &none                        &none      &kp PIPE         &kp TILDE        &kp AMPS        &kp DLLR
-                                                    &trans           &mo 3      &trans    &trans  &trans     &trans
+  &kp KP_NUMBER_1  &kp KP_NUMBER_2     &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5                    &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0
+  &kp NUMBER_0     &kp LEFT_BRACE      &none            &none            &none                              &kp KP_NUMLOCK   &kp KP_SLASH     &kp KP_ASTERISK  &kp KP_MINUS     &kp KP_PLUS
+  &kp CAPSLOCK     &kp LS(LEFT_BRACE)  &none            &none            &none                              &none            &kp M            &kp LS(COMMA)    &kp DOT          &kp EQUAL
+                                                        &trans           &trans           &trans    &trans  &trans           &trans
             >;
 
             display-name = "Symbols";
         };
 
-        adj {
+        nav {
             bindings = <
   &bootloader  &kp F1        &kp F2         &kp F3         &kp F4                     &bt BT_SEL 0  &bt BT_SEL 1         &bt BT_SEL 2       &bt BT_SEL 3        &bt BT_CLR
   &kp LGUI     &hml LALT F5  &hml LSHFT F6  &hml LCTRL F7  &kp F8                     &out OUT_BLE  &hmr RCTRL C_VOL_DN  &hmr RSHFT C_MUTE  &hmr LALT C_VOL_UP  &kp RGUI
