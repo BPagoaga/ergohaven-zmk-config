@@ -102,8 +102,8 @@
 
         sym {
             bindings = <
-  &kp N1            &kp LBRC              &kp RA(NUMBER_4)  &kp RA(EQUAL)  &kp RA(N6)                              &kp GRAVE                 &kp RA(N7)    &kp N8        &kp RA(N0)  &kp ASTRK
-  &kp EQUAL         &kp RBRC              &kp NUMBER_5      &kp MINUS      &kp NON_US_BACKSLASH                    &kp LS(NON_US_BACKSLASH)  &kp NUMBER_3  &kp NUMBER_4  &none       &kp KP_PLUS
+  &kp N1            &kp CARET             &kp RA(NUMBER_4)  &kp RA(EQUAL)  &kp RA(N6)                              &kp GRAVE                 &kp RA(N7)    &kp N8        &kp RA(N0)  &kp KP_ASTERISK
+  &kp EQUAL         &kp DOLLAR            &kp NUMBER_5      &kp MINUS      &kp NON_US_BACKSLASH                    &kp LS(NON_US_BACKSLASH)  &kp NUMBER_3  &kp NUMBER_4  &none       &kp KP_PLUS
   &kp RA(NUMBER_3)  &kp LS(SINGLE_QUOTE)  &kp RA(NUMBER_5)  &kp RA(MINUS)  &kp RA(NUMBER_2)                        &none                     &none         &none         &kp RA(N8)  &kp KP_MINUS
                                                             &trans         &trans                &trans    &trans  &trans                    &trans
             >;
