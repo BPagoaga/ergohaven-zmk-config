@@ -108,7 +108,7 @@
                                                             &trans         &trans                &trans    &trans  &trans                    &trans
             >;
 
-            display-name = "Navigation";
+            display-name = "Nav";
         };
 
         num {
