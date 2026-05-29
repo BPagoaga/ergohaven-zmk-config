@@ -58,8 +58,8 @@ This config targets macOS with the **French PC (AZERTY)** input layout. ZMK keyc
 
 | ZMK keycode | FR-PC output | Notes |
 |---|---|---|
-| `N6` | `^` | `CARET` (`LS(N6)`) gives `¨` instead |
-| `N4` | `$` | `DOLLAR` (`LS(N4)`) gives `£` instead |
+| `LBKT` | `^` | `CARET` (`LS(N6)`) gives `¨` instead |
+| `RBKT` | `$` | `DOLLAR` (`LS(N4)`) gives `£` instead |
 | `NUHS` | `*` | `KP_ASTERISK` gives `8` instead |
 | `RA(N4)` | `{` | AltGr+4 |
 | `RA(EQUAL)` | `}` | AltGr+= |

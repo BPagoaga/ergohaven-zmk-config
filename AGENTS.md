@@ -16,8 +16,8 @@ ZMK keycodes are defined for a US QWERTY layout. When the host OS uses French PC
 
 | ZMK keycode | Expected | Actual on FR-PC macOS | Correct ZMK keycode |
 |---|---|---|---|
-| `CARET` (`LS(N6)`) | `^` | `¨` | `N6` |
-| `DOLLAR` (`LS(N4)`) | `$` | `£` | `N4` |
+| `CARET` (`LS(N6)`) | `^` | `¨` | `LBKT` |
+| `DOLLAR` (`LS(N4)`) | `$` | `£` | `RBKT` |
 | `KP_ASTERISK` | `*` | `8` | `NUHS` |
 | `LBKT` | `[` | `^` (dead) | — |
 | `LS(LBKT)` | `{` | `¨` (dead) | — |
