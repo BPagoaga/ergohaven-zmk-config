@@ -125,10 +125,10 @@
 
         nav {
             bindings = <
-  &trans      &trans     &trans      &trans       &kp C_BRIGHTNESS_DEC                    &kp C_BRIGHTNESS_INC  &kp PAGE_DOWN   &kp PAGE_UP   &kp PRINTSCREEN  &kp F12
-  &trans      &trans     &trans      &trans       &kp K_VOLUME_UP                         &kp LEFT_ARROW        &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none
-  &kp K_MUTE  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp K_VOLUME_DOWN                       &trans                &trans          &trans        &trans           &trans
-                                     &trans       &trans                &trans    &trans  &trans                &trans
+  &trans      &trans     &trans      &trans       &kp C_BRIGHTNESS_DEC                       &msc SCRL_RIGHT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_LEFT   &kp F12
+  &trans      &trans     &trans      &trans       &kp K_VOLUME_UP                            &kp LEFT_ARROW   &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none
+  &kp K_MUTE  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp K_VOLUME_DOWN                          &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
+                                     &trans       &trans                &trans    &mkp RCLK  &mkp LCLK        &trans
             >;
         };
 
